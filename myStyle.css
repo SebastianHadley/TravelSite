@@ -1,0 +1,69 @@
+/* myStyle.css */
+body{
+	margin-left:1cm;
+	background-image: url("Images/Background4.jpg");
+	font-family:Arial;
+	font-size:130%; 
+	background-size:cover
+}
+/* Formatted like this as it seems the easiest to read and seperate each different style change*/
+	body{
+		color: black;
+	}
+	p.right{
+		text-align:left
+	}
+	
+	#Welcome {
+		font-size:120%
+	}	
+	
+	h1{
+		color:red;
+		text-align:center
+	}
+	
+	img{
+		float:left;
+		padding-right:2%;
+		width:30%;
+		height:20%;
+		}
+	
+	a:hover {
+		color:purple;
+	}
+	
+	a{
+		color:blue;
+	}
+	
+	a:visited{
+		color:red;
+	}
+	
+	div.main{
+		padding-bottom:15%;
+	}
+	
+	ol{
+		list-style:none;
+	}
+	
+	ul{
+		list-style:none;
+	}
+	
+	address{
+		text-align:right;
+	}
+	
+	abbr{ 
+	font-variant: small-caps;
+	text-decoration:none
+	}
+	#holidaydescription{
+		text-align:left;
+		width:250px; 
+		height:75px;
+	}

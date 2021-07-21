@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt.xsl"?><!DOCTYPE Holidays[
+<!ELEMENT Holidays (Package*)> 
+	<!ELEMENT Package (GeneralInformation, Details)>
+	<!ELEMENT GeneralInformation (PackageName, Description, ContactInfo)>
+	<!ELEMENT Details (Cost, Nights, Popularity, CouponCode?, Reviews*, Picture+, WebPage, Accommodation+)>
+	<!ELEMENT Accommodation (Location, AdditionalCost, Features*,Rating)>
+	<!ELEMENT PackageName (#PCDATA)>
+	<!ELEMENT Description (#PCDATA)>
+	<!ELEMENT Cost (#PCDATA)>
+	<!ELEMENT Popularity (#PCDATA)>
+	<!ELEMENT Nights (#PCDATA)>
+	<!ELEMENT CouponCode (#PCDATA)>
+	<!ELEMENT Reviews (#PCDATA)>
+	<!ELEMENT Picture (#PCDATA)>
+	<!ELEMENT WebPage (#PCDATA)>
+	<!ELEMENT Location (#PCDATA)>
+	<!ELEMENT AdditionalCost (#PCDATA)>
+	<!ELEMENT Features (#PCDATA)>
+	<!ELEMENT Rating (#PCDATA)>
+	<!ELEMENT ContactInfo (#PCDATA)>
+	<!ENTITY Contact "Sebastian.Hadley@hotmail.com 0449181132">
+	<!ATTLIST Popularity stars (0|1|2|3|4|5) "5" >
+	]>
+	
+
+
+<Holidays>
+<Package>
+<GeneralInformation>
+<PackageName> </PackageName>
+<Description> </Description>
+<ContactInfo></ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost> </Cost>
+<Nights> </Nights>
+<Popularity> </Popularity>
+<CouponCode> </CouponCode>
+<Reviews> </Reviews>
+<Picture> </Picture>
+<WebPage> </WebPage>
+<Accommodation>
+<Location> </Location>
+<AdditionalCost> </AdditionalCost>
+<Features> </Features>
+<Rating> </Rating>
+</Accommodation>
+</Details>
+</Package>
+<Package>
+<GeneralInformation>
+<PackageName> </PackageName>
+<Description> </Description>
+<ContactInfo></ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost> </Cost>
+<Nights> </Nights>
+<Popularity> </Popularity>
+<CouponCode> </CouponCode>
+<Reviews> </Reviews>
+<Picture> </Picture>
+<WebPage> </WebPage>
+<Accommodation>
+<Location> </Location>
+<AdditionalCost> </AdditionalCost>
+<Features> </Features>
+<Rating> </Rating>
+</Accommodation>
+</Details>
+</Package>
+<Package>
+<GeneralInformation>
+<PackageName> </PackageName>
+<Description> </Description>
+<ContactInfo></ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost> </Cost>
+<Nights> </Nights>
+<Popularity> </Popularity>
+<CouponCode> </CouponCode>
+<Reviews> </Reviews>
+<Picture> </Picture>
+<WebPage> </WebPage>
+<Accommodation>
+<Location> </Location>
+<AdditionalCost> </AdditionalCost>
+<Features> </Features>
+<Rating> </Rating>
+</Accommodation>
+</Details>
+</Package>
+</Holidays>

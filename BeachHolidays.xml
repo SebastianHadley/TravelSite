@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt.xsl"?><!DOCTYPE Holidays[
+<!ELEMENT Holidays (Package*)> 
+	<!ELEMENT Package (GeneralInformation, Details)>
+	<!ELEMENT GeneralInformation (PackageName, Description, ContactInfo)>
+	<!ELEMENT Details (Cost, Nights, Popularity, CouponCode?, Reviews*, Picture+, WebPage, Accommodation+)>
+	<!ELEMENT Accommodation (Location, AdditionalCost, Features*,Rating)>
+	<!ELEMENT PackageName (#PCDATA)>
+	<!ELEMENT Description (#PCDATA)>
+	<!ELEMENT Cost (#PCDATA)>
+	<!ELEMENT Popularity (#PCDATA)>
+	<!ELEMENT Nights (#PCDATA)>
+	<!ELEMENT CouponCode (#PCDATA)>
+	<!ELEMENT Reviews (#PCDATA)>
+	<!ELEMENT Picture (#PCDATA)>
+	<!ELEMENT WebPage (#PCDATA)>
+	<!ELEMENT Location (#PCDATA)>
+	<!ELEMENT AdditionalCost (#PCDATA)>
+	<!ELEMENT Features (#PCDATA)>
+	<!ELEMENT Rating (#PCDATA)>
+	<!ELEMENT ContactInfo (#PCDATA)>
+	<!ENTITY Contact "Sebastian.Hadley@hotmail.com 0449181132">
+	<!ATTLIST Popularity stars (0|1|2|3|4|5) "5" >
+	]>
+	
+<Holidays>
+<Package>
+<GeneralInformation>
+<PackageName>Bali Beach Holiday </PackageName>
+<Description>This Bali beach holiday is based in seminyak,it includes access to white water rafting tours and a day of snorkling off of nusa penida. </Description>
+<ContactInfo>&Contact;</ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost>$1500 </Cost>
+<Nights>10</Nights>
+<Popularity>3</Popularity>
+<CouponCode>NA</CouponCode>
+<Reviews>Great experience, quick cheap getaway, highly reccommend.</Reviews>
+<Picture>Images/NusaPenida.jpg </Picture>
+<WebPage>https://www.thecrazytourist.com/15-best-things-seminyak-bali/ </WebPage>
+<Accommodation>
+<Location>Villa1 </Location>
+<AdditionalCost>$0</AdditionalCost>
+<Features> </Features>
+<Rating>3</Rating>
+</Accommodation>
+<Accommodation>
+<Location>Villa2</Location>
+<AdditionalCost>$300</AdditionalCost>
+<Features>Beachfront, includes a maid</Features>
+<Rating>5</Rating>
+</Accommodation>
+</Details>
+</Package>
+<Package>
+<GeneralInformation>
+<PackageName>Byron Bay Holiday </PackageName>
+<Description>This Holiday to byron bay lets you visit one of the most beauitful beach areas in australia, with surfboards and bikes at your villa.</Description>
+<ContactInfo>&Contact;</ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost>$1100 </Cost>
+<Nights>7</Nights>
+<Popularity>3</Popularity>
+<CouponCode>NA</CouponCode>
+<Reviews> </Reviews>
+<Picture>Images/Byron.jpg </Picture>
+<WebPage>https://www.byron-bay.com/</WebPage>
+<Accommodation>
+<Location>Villa</Location>
+<AdditionalCost></AdditionalCost>
+<Features>Surfboards and bikes.</Features>
+<Rating>4/5</Rating>
+</Accommodation>
+</Details>
+</Package>
+<Package>
+<GeneralInformation>
+<PackageName>Hawaii Beach Holiday</PackageName>
+<Description>This holiday package allows you to relax on the beautiful beaches of hawaii.</Description>
+<ContactInfo>&Contact;</ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost>$2900</Cost>
+<Nights>8 </Nights>
+<Popularity>4</Popularity>
+<CouponCode>NA</CouponCode>
+<Reviews>Beautiful holiday, great place to relax and wind down.</Reviews>
+<Picture>Images/Hawaii.jpg </Picture>
+<WebPage>https://www.gohawaii.com/au</WebPage>
+<Accommodation>
+<Location>Sheraton Waikiki</Location>
+<AdditionalCost>$0</AdditionalCost>
+<Features></Features>
+<Rating>4/5</Rating>
+</Accommodation>
+</Details>
+</Package>
+</Holidays>

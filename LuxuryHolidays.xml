@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt.xsl"?><!DOCTYPE Holidays[
+<!ELEMENT Holidays (Package*)> 
+	<!ELEMENT Package (GeneralInformation, Details)>
+	<!ELEMENT GeneralInformation (PackageName, Description, ContactInfo)>
+	<!ELEMENT Details (Cost, Nights, Popularity, CouponCode?, Reviews*, Picture+, WebPage, Accommodation+)>
+	<!ELEMENT Accommodation (Location, AdditionalCost, Features*,Rating)>
+	<!ELEMENT PackageName (#PCDATA)>
+	<!ELEMENT Description (#PCDATA)>
+	<!ELEMENT Cost (#PCDATA)>
+	<!ELEMENT Popularity (#PCDATA)>
+	<!ELEMENT Nights (#PCDATA)>
+	<!ELEMENT CouponCode (#PCDATA)>
+	<!ELEMENT Reviews (#PCDATA)>
+	<!ELEMENT Picture (#PCDATA)>
+	<!ELEMENT WebPage (#PCDATA)>
+	<!ELEMENT Location (#PCDATA)>
+	<!ELEMENT AdditionalCost (#PCDATA)>
+	<!ELEMENT Features (#PCDATA)>
+	<!ELEMENT Rating (#PCDATA)>
+	<!ELEMENT ContactInfo (#PCDATA)>
+	<!ENTITY Contact "Sebastian.Hadley@hotmail.com 0449181132">
+	<!ATTLIST Popularity stars (0|1|2|3|4|5) "5" >
+	]>
+	
+	
+<Holidays>
+<Package>
+<GeneralInformation>
+<PackageName>Japan Luxury Holiday </PackageName>
+<Description>This holiday takes you to an expensive hotel in the shinjuku ward of tokyo japan, you are then provided with tour guides to see the cities attractions.These attractions range from the Meiji-jingu Shrine to the modern exhibitions of Tokyo Tower, and even a day trip to Mt.Fuji. </Description>
+<ContactInfo>&Contact;</ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost>$6000 </Cost>
+<Nights>11 </Nights>
+<Popularity>4</Popularity>
+<CouponCode>NA</CouponCode>
+<Reviews>Great holiday, we got to visit the one piece museum in Tokyo tower, highly reccommend. </Reviews>
+<Picture>Images/Shrine.jpg</Picture>
+<WebPage>https://www.travelonline.com/japan/attractions/tokyo-tower</WebPage>
+<Accommodation>
+<Location>Shinjuku </Location>
+<AdditionalCost>$0</AdditionalCost>
+<Features></Features>
+<Rating>4/5</Rating>
+</Accommodation>
+</Details>
+</Package>
+<Package>
+<GeneralInformation>
+<PackageName>European Luxury Holiday  </PackageName>
+<Description>Involves a 45 day tour around europe, staying in expensive hotels throughout your trip. you will visit Italy, France, The Netherlands,UK,Greece and Belgium.</Description>
+<ContactInfo>&Contact;</ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost>$22000 </Cost>
+<Nights>45 </Nights>
+<Popularity>5 </Popularity>
+<CouponCode>NA</CouponCode>
+<Reviews>4/5</Reviews>
+<Picture>Images/Rome.jpg</Picture>
+<WebPage>https://www.fodors.com/world/europe/italy/rome/experiences/news/photos/25-ultimate-things-to-do-in-rome</WebPage>
+<Accommodation>
+<Location>Standard Luxury Hotels</Location>
+<AdditionalCost> </AdditionalCost>
+<Features> </Features>
+<Rating> </Rating>
+</Accommodation>
+</Details>
+</Package>
+<Package>
+<GeneralInformation>
+<PackageName>USA Luxury Holiday</PackageName>
+<Description>This Luxury USA Holiday involves a tour of the east coast, with extra time available in new york. </Description>
+<ContactInfo>&Contact;</ContactInfo>
+</GeneralInformation>
+<Details>
+<Cost>$9000</Cost>
+<Nights>12</Nights>
+<Popularity>4</Popularity>
+<CouponCode> </CouponCode>
+<Reviews> </Reviews>
+<Picture>Images/NewYork.jpg </Picture>
+<WebPage>https://www.twowanderingsoles.com/blog/top-things-to-do-in-new-york-city</WebPage>
+<Accommodation>
+<Location>The Ritz-Carlton</Location>
+<AdditionalCost>$850 </AdditionalCost>
+<Features>Extra 2 Night Stay</Features>
+<Rating>5/5</Rating>
+</Accommodation>
+</Details>
+</Package>
+</Holidays>
